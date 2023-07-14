@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<img src="1.jpg" id="first" width="400"height="300" alt=""><br>
+<button onmouseover="callimg('1.jpg')">1</button>
+<button onmouseover="callimg('2.jpg')">2</button>
+<button onmouseover="callimg('3.jpg')">3</button>  
+<button onmouseover="callimg('4.jpg')">4</button>  
+
+
+
+
+<script>
+    function callimg(img1)
+    {
+        var img=document.getElementById('first');
+      
+        img.setAttribute("src",img1);
+    }
+</script>
+</body>
+</html>

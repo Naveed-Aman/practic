@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="color">
+ 
+    <!-- assignment Operators -->
+
+
+    <!--
+    =
+    +=
+    -=
+    *=
+    /=
+     -->
+
+
+     <!-- comparision Operators -->
+    
+    <!-- 
+     ==
+     ===
+     <
+     >
+     <=
+     >= 
+    -->
+
+
+    <!-- increment / decreament Operators -->
+
+    <p id="p"></p>
+
+
+    <button onclick="inc()">click1</button>
+    <button onclick="dec()">click2</button>
+    <script>
+        // var name="3";
+        // if(name===3)
+        // {
+        //     document.write("this is true");
+        // }
+        // else
+        // {
+        //     document.write("false");
+        // }
+        var i=0;
+        function inc()
+        {
+            i++;
+
+            
+         
+
+            document.getElementById('p').innerHTML=i;
+
+          if(i==5)
+          {
+            document.getElementById('color').style.backgroundColor="Black";
+            document.getElementById('color').style.color="white";
+          }
+
+        }
+        function dec()
+        {
+            i--;
+
+            
+         
+
+            document.getElementById('p').innerHTML=i;
+
+                 if(i<5)
+          {
+            document.getElementById('color').style.backgroundColor="white";
+            document.getElementById('color').style.color="black";
+          }
+        }
+// var num=4;
+
+
+
+// document.write(num++);
+// document.write("<br>");
+// document.write(num);
+
+    </script>
+
+</body>
+</html>
